@@ -113,26 +113,25 @@ a {
 }
 /* --------------------- End Nav Bar -------------------- */
 
-/* ----------------- Start Home Section ----------------- */
-#home.bg-style {
-  position: relative;
+
+/* Background Style */
+#home.bg-style {  position: relative;
   height: 100vh; /* Set your desired height */
   overflow: hidden;
+  background: no-repeat center;
+  background-size: cover;
+  z-index: 1;
+  position: relative;
 }
-
 #home.bg-style::before {
   content: "";
-  background-image: url("../img/bg1.webp");
   position: absolute;
-  top: 0;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
   z-index: -1;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  animation: slide 15s infinite;
-  background-size: cover;
-  background-position: center;
 }
+/* Background Style */
+
 
 @keyframes slide {
   0% {
@@ -208,6 +207,8 @@ a {
 /* -----------------  Start About Section ------------------ */
 #about .img-profile{
   min-height: 624px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 #about .img-profile::after {
