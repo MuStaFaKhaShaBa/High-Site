@@ -231,6 +231,23 @@
     gtag('config', 'AW-11550382903');
   </script>
 
+<!-- Event snippet for اتصال من المزقع conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-11550382903/Udj-CIPEqYYaELe204Mr',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+  
 </head>
 
 <body class="">
@@ -239,7 +256,7 @@
     <i class="fa-brands fa-whatsapp"></i>
   </a>
   <!-- Floating Button -->
-  <a href="tel:+96555096667" class="floating-button second" title="Call Us Now" target="_blank">
+  <a href="tel:55096667" onclick="gtag_report_conversion(`https://high-site.com/used-furniture/`)" class="floating-button second" title="Call Us Now" target="_blank">
     <i class="fa-solid fa-phone"></i>
   </a>
 
@@ -345,7 +362,7 @@
       <div class="mt-4">
         <div class="d-flex gap-2 justify-content-center">
           <!-- Phone Call Button -->
-          <a href="tel:55096667" class="btn btn-light d-flex align-items-center p-2 mt-2" title="اتصل بي"
+          <a href="tel:55096667" onclick="gtag_report_conversion(`https://high-site.com/used-furniture/`)" class="btn btn-light d-flex align-items-center p-2 mt-2" title="اتصل بي"
             aria-label="اتصل بي">
             اتصل بي
             <i class="fa-solid fa-phone me-2" aria-hidden="true"></i>
