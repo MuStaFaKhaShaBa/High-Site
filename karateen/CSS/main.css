@@ -1,0 +1,20 @@
+:root {
+    --main-color: 255, 200, 0;
+    --transition-anchor: 0.3s;
+    --transition-icon: 0.6s;
+    --bg-color: #f7f7f7;
+
+    --bs-primary: #ffc700;
+    --bs-primary-rgb: 255, 200, 0;
+}
+
+#home.bg-style {
+    background-image: url("../img/home.webp");
+
+}
+#fun-facts {
+    background-color: var(--bg-color);
+  }
+#contact {
+    background-color: var(--bs-white);
+  }
