@@ -231,23 +231,23 @@
     gtag('config', 'AW-11550382903');
   </script>
 
-<!-- Event snippet for اتصال من المزقع conversion page
+  <!-- Event snippet for اتصال من المزقع conversion page
 In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-  function gtag_report_conversion(url) {
-    var callback = function () {
-      if (typeof(url) != 'undefined') {
-        window.location = url;
-      }
-    };
-    gtag('event', 'conversion', {
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof (url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
         'send_to': 'AW-11550382903/Udj-CIPEqYYaELe204Mr',
         'event_callback': callback
-    });
-    return false;
-  }
+      });
+      return false;
+    }
   </script>
-  
+
 </head>
 
 <body class="">
@@ -256,7 +256,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
     <i class="fa-brands fa-whatsapp"></i>
   </a>
   <!-- Floating Button -->
-  <a href="tel:55096667" onclick="gtag_report_conversion(`https://high-site.com/Used-Furniture/`)" class="floating-button second" title="Call Us Now" target="_blank">
+  <a href="tel:55096667" onclick="gtag_report_conversion(`https://high-site.com/Used-Furniture/`)"
+    class="floating-button second" title="Call Us Now" target="_blank">
     <i class="fa-solid fa-phone"></i>
   </a>
 
@@ -362,8 +363,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
       <div class="mt-4">
         <div class="d-flex gap-2 justify-content-center">
           <!-- Phone Call Button -->
-          <a href="tel:55096667" onclick="gtag_report_conversion(`https://high-site.com/Used-Furniture/`)" class="btn btn-light d-flex align-items-center p-2 mt-2" title="اتصل بي"
-            aria-label="اتصل بي">
+          <a href="tel:55096667" onclick="gtag_report_conversion(`https://high-site.com/Used-Furniture/`)"
+            class="btn btn-light d-flex align-items-center p-2 mt-2" title="اتصل بي" aria-label="اتصل بي">
             اتصل بي
             <i class="fa-solid fa-phone me-2" aria-hidden="true"></i>
           </a>
