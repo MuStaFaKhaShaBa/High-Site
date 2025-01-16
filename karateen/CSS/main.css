@@ -12,9 +12,6 @@
     background-image: url("../img/home.webp");
 
 }
-#fun-facts {
-    background-color: var(--bg-color);
-  }
 #contact {
-    background-color: var(--bs-white);
+    background-color: var(--bg-color);
   }
