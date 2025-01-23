@@ -10,4 +10,10 @@
     <loc>https://high-site.com/karateen/sitemap.xml</loc>
     <lastmod>2025-01-16</lastmod>
   </sitemap> 
+  
+  <!-- Reference Sitemap for abo_abdullah-dyer -->
+  <sitemap>
+    <loc>https://high-site.com/abo_abdullah-dyer/sitemap.xml</loc>
+    <lastmod>2025-01-23</lastmod>
+  </sitemap> 
 </sitemapindex>
