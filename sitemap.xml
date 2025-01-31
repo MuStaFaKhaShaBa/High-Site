@@ -1,4 +1,10 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Reference Sitemap for Home Page -->
+  <sitemap>
+    <loc>https://high-site.com/homepage-sitemap.xml</loc>
+    <lastmod>2025-01-31</lastmod>
+  </sitemap> 
+  
   <!-- Reference Sitemap for Used Furniture -->
   <sitemap>
     <loc>https://high-site.com/Used-Furniture/sitemap.xml</loc>
